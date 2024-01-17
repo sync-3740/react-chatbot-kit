@@ -8,8 +8,8 @@ export declare const createChatMessage: (message: string, type: string) => {
     type: string;
     id: number;
 };
-export declare const createChatBotMessage: (message: string, options: IMessageOptions) => {
-    loading: boolean;
+export declare const createChatBotMessage: (message: string, options: IMessageOptions, loading: Boolean) => {
+    loading: Boolean;
     widget?: string;
     delay?: number;
     payload?: any;
