@@ -282,13 +282,7 @@ const Chat = ({
             customComponents.header && customComponents.header(actionProvider)
           }
           elseShow={
-            <div>
             <div className="react-chatbot-kit-chat-header">{header}</div>
-            <div className="react-chatbot-kit-chat-image">
-            <img src={NHS_Logo} alt="NHSLogo"></img>
-            <img src={UofGIcon} alt="UofGLogo"></img>
-            </div>
-            </div>
           }
         />
 
