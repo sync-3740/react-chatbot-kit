@@ -21,6 +21,8 @@ import {
 } from '../../interfaces/IConfig';
 import { IMessage } from '../../interfaces/IMessages';
 import { string } from 'prop-types';
+import UofGIcon from '../../assets/images/UofG_Coat_of_Arms.png'
+import NHS_Logo from '../../assets/images/nhs-logo.png'
 
 interface IChatProps {
   setState: React.Dispatch<SetStateAction<any>>;
@@ -283,8 +285,8 @@ const Chat = ({
             <div>
             <div className="react-chatbot-kit-chat-header">{header}</div>
             <div className="react-chatbot-kit-chat-image">
-            <img src="../../assets/icons/nhs-logo.jpeg" alt="NHSLogo"></img>
-            <img src="../../assets/icons/UofG_Coat_of_Arms.png" alt="UofGLogo"></img>
+            <img src={NHS_Logo} alt="NHSLogo"></img>
+            <img src={UofGIcon} alt="UofGLogo"></img>
             </div>
             </div>
           }
