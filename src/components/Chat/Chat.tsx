@@ -261,7 +261,7 @@ const Chat = ({
     customButtonStyle.backgroundColor = customStyles.chatButton.backgroundColor;
   }
 
-  let header = `Conversation with ${botName} and this text`;
+  let header = `Conversation with ${botName}....`;
   if (headerText) {
     header = headerText;
   }
@@ -282,7 +282,7 @@ const Chat = ({
           elseShow={
             <div>
             <div className="react-chatbot-kit-chat-header">{header}</div>
-            <div className="header-images">
+            <div className="react-chatbot-kit-chat-image">
             <img src="../../assets/icons/nhs-logo.jpeg" alt="NHSLogo"></img>
             <img src="../../assets/icons/UofG_Coat_of_Arms.png" alt="UofGLogo"></img>
             </div>
