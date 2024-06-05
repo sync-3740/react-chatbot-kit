@@ -263,7 +263,7 @@ const Chat = ({
     customButtonStyle.backgroundColor = customStyles.chatButton.backgroundColor;
   }
 
-  let header = `Conversation with ${botName}()()()()()()`;
+  let header = `Conversation with ${botName}`;
   if (headerText) {
     header = headerText;
   }
